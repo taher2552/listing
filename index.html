@@ -1,0 +1,2592 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Book My Player</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/listing-style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/slick.css" rel="stylesheet" type="text/css">
+    <!-- /CSS -->
+
+</head>
+
+<body>
+
+    <!-- HEADER SECTION -->
+    <header class="header-section">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-3 col-4"><img src="assets/img/logo.svg" class="img-fluid" alt=""></div>
+                <div class="col-md-9 col-8 d-flex justify-content-end align-items-center">
+                    <div class="search">
+                        <input type="search" name="" id="" placeholder="Search players, Coaches etc..">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                    <div class="search-mobile"><button><i class="fa-solid fa-magnifying-glass"></i></button></div>
+                    <div class="detect-location"><button type="button"><i class="fa-solid fa-location-crosshairs"></i>
+                            <span>Detect My Location</span></button></div>
+                    <a href="#" class="btn btn-secondary btn-lg">Register Now</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- /HEADER SECTION -->
+
+    <!-- CONTENT SECTION -->
+    <section class="breadcrumb-section clearfix">
+        <div class="container">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Yoga Coaches</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <section class="listing-section clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-xl-4 d-none d-md-block">
+                    <div class="filter-group">
+                        <div class="heading">
+                            <h6>Filters</h6>
+                            <button type="reset">Reset All</button>
+                        </div>
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseOne">
+                                        Localities
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="panelsStayOpen-headingOne">
+                                    <div class="accordion-body">
+                                        <div class="search mb-3">
+                                            <input type="search" name="" id="" placeholder="Search Localities">
+                                            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                        </div>
+                                        <div class="show-more-text show-more-height scrollbar">
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="101">
+                                                <label class="form-check-label" for="101">Prayagraj</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="102">
+                                                <label class="form-check-label" for="102">Jamshedpur</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="103">
+                                                <label class="form-check-label" for="103">Gwalior</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="104">
+                                                <label class="form-check-label" for="104">Lucknow</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="105">
+                                                <label class="form-check-label" for="105">Raipur</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="106">
+                                                <label class="form-check-label" for="106">Bareilly</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="107">
+                                                <label class="form-check-label" for="107">Shiliguri</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="108">
+                                                <label class="form-check-label" for="108">Gorakhpur</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="109">
+                                                <label class="form-check-label" for="109">Durgapur</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="110">
+                                                <label class="form-check-label" for="110">Dehra Dun</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="111">
+                                                <label class="form-check-label" for="111">Asansol</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="112">
+                                                <label class="form-check-label" for="112">Agartala</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="113">
+                                                <label class="form-check-label" for="113">Jamnagar</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="114">
+                                                <label class="form-check-label" for="114">Udaipur</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="115">
+                                                <label class="form-check-label" for="115">Mathura</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="116">
+                                                <label class="form-check-label" for="116">Davangere</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="117">
+                                                <label class="form-check-label" for="117">Calicut</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="118">
+                                                <label class="form-check-label" for="118">Bhagalpur</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="119">
+                                                <label class="form-check-label" for="119">Rohtak</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="120">
+                                                <label class="form-check-label" for="120">Trichur</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="121">
+                                                <label class="form-check-label" for="121">Barddhaman</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="122">
+                                                <label class="form-check-label" for="122">Hisar</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="123">
+                                                <label class="form-check-label" for="123">Aizawl</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="124">
+                                                <label class="form-check-label" for="124">Imphal</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="125">
+                                                <label class="form-check-label" for="125">Byatarayanpur</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="126">
+                                                <label class="form-check-label" for="126">Gandhidham</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="127">
+                                                <label class="form-check-label" for="127">Haridwar</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="128">
+                                                <label class="form-check-label" for="128">Ghandinagar</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="129">
+                                                <label class="form-check-label" for="129">Morbi</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="130">
+                                                <label class="form-check-label" for="130">Orai</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="131">
+                                                <label class="form-check-label" for="131">Mahesana</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="132">
+                                                <label class="form-check-label" for="132">Kottayam</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="133">
+                                                <label class="form-check-label" for="133">Alleppey</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="134">
+                                                <label class="form-check-label" for="134">Valsad</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="135">
+                                                <label class="form-check-label" for="135">Bharuch</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="136">
+                                                <label class="form-check-label" for="136">Habra</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="137">
+                                                <label class="form-check-label" for="137">Shillong</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="138">
+                                                <label class="form-check-label" for="138">Palghat</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="139">
+                                                <label class="form-check-label" for="139">Chas</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="140">
+                                                <label class="form-check-label" for="140">Dimapur</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="141">
+                                                <label class="form-check-label" for="141">Bansbaria</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="142">
+                                                <label class="form-check-label" for="142">Gharbara</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="143">
+                                                <label class="form-check-label" for="143">Rishikesh</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="144">
+                                                <label class="form-check-label" for="144">Vasco Da Gama</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="145">
+                                                <label class="form-check-label" for="145">Malappuram</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="146">
+                                                <label class="form-check-label" for="146">Panaji</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="147">
+                                                <label class="form-check-label" for="147">Nethirimangalam</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="148">
+                                                <label class="form-check-label" for="148">Meddappakkam</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="149">
+                                                <label class="form-check-label" for="149">Fatehpur</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="150">
+                                                <label class="form-check-label" for="150">Narsingi</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="151">
+                                                <label class="form-check-label" for="151">Silvassa</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="152">
+                                                <label class="form-check-label" for="152">Ramnagar</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="153">
+                                                <label class="form-check-label" for="153">Zerakpur</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="154">
+                                                <label class="form-check-label" for="154">Madgaon</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="155">
+                                                <label class="form-check-label" for="155">Samastipur</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="156">
+                                                <label class="form-check-label" for="156">Lohardaga</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="157">
+                                                <label class="form-check-label" for="157">Kharar</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="158">
+                                                <label class="form-check-label" for="158">Kengri</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="159">
+                                                <label class="form-check-label" for="159">Jalandhar Cantonment</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="160">
+                                                <label class="form-check-label" for="160">Udaipur</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="161">
+                                                <label class="form-check-label" for="161">Mussoorie</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="162">
+                                                <label class="form-check-label" for="162">Puthupalli</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="163">
+                                                <label class="form-check-label" for="163">Ladwa</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="164">
+                                                <label class="form-check-label" for="164">Varandarapilli</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="165">
+                                                <label class="form-check-label" for="165">Dugda</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="166">
+                                                <label class="form-check-label" for="166">Sahjanwa</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="167">
+                                                <label class="form-check-label" for="167">Ajnala</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="168">
+                                                <label class="form-check-label" for="168">Hirpardangal</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="169">
+                                                <label class="form-check-label" for="169">Nagla</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="170">
+                                                <label class="form-check-label" for="170">Moirang</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="171">
+                                                <label class="form-check-label" for="171">Jugial</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="172">
+                                                <label class="form-check-label" for="172">Athagarh</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="173">
+                                                <label class="form-check-label" for="173">Saraikela</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="174">
+                                                <label class="form-check-label" for="174">Jakkampalaiyam</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="175">
+                                                <label class="form-check-label" for="175">Sailana</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="176">
+                                                <label class="form-check-label" for="176">Karma</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="177">
+                                                <label class="form-check-label" for="177">Mahuakheraganj</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="178">
+                                                <label class="form-check-label" for="178">Vikasnagar</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="179">
+                                                <label class="form-check-label" for="179">Kenduadih</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="180">
+                                                <label class="form-check-label" for="180">Khaspur</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="181">
+                                                <label class="form-check-label" for="181">Valpoy</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="182">
+                                                <label class="form-check-label" for="182">Marai Kalan</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="183">
+                                                <label class="form-check-label" for="183">Hathiakan</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="184">
+                                                <label class="form-check-label" for="184">Aldona</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="185">
+                                                <label class="form-check-label" for="185">Navsari</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="186">
+                                                <label class="form-check-label" for="186">Bangalore</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="187">
+                                                <label class="form-check-label" for="187">Adityapur</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="188">
+                                                <label class="form-check-label" for="188">Ahmadabad</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="189">
+                                                <label class="form-check-label" for="189">Alandur</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="190">
+                                                <label class="form-check-label" for="190">Alappuzha</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="191">
+                                                <label class="form-check-label" for="191">Allahabad</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="192">
+                                                <label class="form-check-label" for="192">Ambala</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="193">
+                                                <label class="form-check-label" for="193">Ambala Sadar</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="194">
+                                                <label class="form-check-label" for="194">Ambarnath</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="195">
+                                                <label class="form-check-label" for="195">Ambattur</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="196">
+                                                <label class="form-check-label" for="196">Amritsar</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="197">
+                                                <label class="form-check-label" for="197">Anand</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="198">
+                                                <label class="form-check-label" for="198">Arrah</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="199">
+                                                <label class="form-check-label" for="199">Ashoknagar Kalyangarh</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="200">
+                                                <label class="form-check-label" for="200">Avadi</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="201">
+                                                <label class="form-check-label" for="201">Badlapur</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="202">
+                                                <label class="form-check-label" for="202">Bahadurgarh</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="203">
+                                                <label class="form-check-label" for="203">Baidyabati</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="204">
+                                                <label class="form-check-label" for="204">Ballia</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="205">
+                                                <label class="form-check-label" for="205">Bally</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="206">
+                                                <label class="form-check-label" for="206">Bankura</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="207">
+                                                <label class="form-check-label" for="207">Bansberia</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="208">
+                                                <label class="form-check-label" for="208">Banswara</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="209">
+                                                <label class="form-check-label" for="209">Baranagar</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="210">
+                                                <label class="form-check-label" for="210">Barasat</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="211">
+                                                <label class="form-check-label" for="211">Baraut</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="212">
+                                                <label class="form-check-label" for="212">Barrackpur</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="213">
+                                                <label class="form-check-label" for="213">Basirhat</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="214">
+                                                <label class="form-check-label" for="214">Basti</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="215">
+                                                <label class="form-check-label" for="215">Batala</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="216">
+                                                <label class="form-check-label" for="216">Belgaum</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="217">
+                                                <label class="form-check-label" for="217">Bhadreswar</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="218">
+                                                <label class="form-check-label" for="218">Bhalswa Jahangir Pur</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="219">
+                                                <label class="form-check-label" for="219">Bharatpur</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="220">
+                                                <label class="form-check-label" for="220">Bhatpara</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="221">
+                                                <label class="form-check-label" for="221">Bhilai Nagar</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="222">
+                                                <label class="form-check-label" for="222">Bhiwadi</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="223">
+                                                <label class="form-check-label" for="223">Bhiwandi</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="224">
+                                                <label class="form-check-label" for="224">Bhiwani</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="225">
+                                                <label class="form-check-label" for="225">Bhubaneswar Town</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="226">
+                                                <label class="form-check-label" for="226">Bhuj</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="227">
+                                                <label class="form-check-label" for="227">Bidhan Nagar</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="228">
+                                                <label class="form-check-label" for="228">Biharsharif</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="229">
+                                                <label class="form-check-label" for="229">Bokaro Steel City</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="230">
+                                                <label class="form-check-label" for="230">Bongaon</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="231">
+                                                <label class="form-check-label" for="231">Botad</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="232">
+                                                <label class="form-check-label" for="232">Budaun</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="233">
+                                                <label class="form-check-label" for="233">Bulandshahr</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="234">
+                                                <label class="form-check-label" for="234">Burari</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="235">
+                                                <label class="form-check-label" for="235">Champdani</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="236">
+                                                <label class="form-check-label" for="236">Chandannagar</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="237">
+                                                <label class="form-check-label" for="237">Chandigarh</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="238">
+                                                <label class="form-check-label" for="238">Chapra</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="239">
+                                                <label class="form-check-label" for="239">Chennai</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="240">
+                                                <label class="form-check-label" for="240">Coimbatore</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="241">
+                                                <label class="form-check-label" for="241">Cuttack</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="242">
+                                                <label class="form-check-label" for="242">Dabgram</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="243">
+                                                <label class="form-check-label" for="243">Dallo Pura</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="244">
+                                                <label class="form-check-label" for="244">Darbhanga</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="245">
+                                                <label class="form-check-label" for="245">Darjiling</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="246">
+                                                <label class="form-check-label" for="246">Davanagere</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="247">
+                                                <label class="form-check-label" for="247">Dehradun</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="248">
+                                                <label class="form-check-label" for="248">Delhi Cantonment</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="249">
+                                                <label class="form-check-label" for="249">Deoli</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="250">
+                                                <label class="form-check-label" for="250">Deoria</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="251">
+                                                <label class="form-check-label" for="251">Dhanbad</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="252">
+                                                <label class="form-check-label" for="252">Dinapur Nizamat</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="253">
+                                                <label class="form-check-label" for="253">Dum Dum</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="254">
+                                                <label class="form-check-label" for="254">Durg</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="255">
+                                                <label class="form-check-label" for="255">Faridabad</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="256">
+                                                <label class="form-check-label" for="256">Gandhinagar</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="257">
+                                                <label class="form-check-label" for="257">Giridih</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="258">
+                                                <label class="form-check-label" for="258">Gokal Pur</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="259">
+                                                <label class="form-check-label" for="259">Gondal</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="260">
+                                                <label class="form-check-label" for="260">Greater Hyderabad</label>
+                                            </div>
+                                        </div>
+                                        <p><a href="#" class="show-more">More...</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseTwo">
+                                        Search By
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show"
+                                    aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body">
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="11">
+                                            <label class="form-check-label" for="11">Academy (857)</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="12">
+                                            <label class="form-check-label" for="12">Coach (8578)</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseThree">
+                                        Sport
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show"
+                                    aria-labelledby="panelsStayOpen-headingThree">
+                                    <div class="accordion-body">
+                                        <div class="show-more-text2 show-more-height2 scrollbar">
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2021">
+                                                <label class="form-check-label" for="2021">Football</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2022">
+                                                <label class="form-check-label" for="2022">Basketball</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2023">
+                                                <label class="form-check-label" for="2023">Cricket</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2024">
+                                                <label class="form-check-label" for="2024">Swimming</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2025">
+                                                <label class="form-check-label" for="2025">Badminton</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2026">
+                                                <label class="form-check-label" for="2026">Golf</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2027">
+                                                <label class="form-check-label" for="2027">Shooting</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2028">
+                                                <label class="form-check-label" for="2028">MMA</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2029">
+                                                <label class="form-check-label" for="2029">Kabaddi</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2030">
+                                                <label class="form-check-label" for="2030">Gymnastics</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2031">
+                                                <label class="form-check-label" for="2031">Arts</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2032">
+                                                <label class="form-check-label" for="2032">Chess</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2033">
+                                                <label class="form-check-label" for="2033">Sports</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2034">
+                                                <label class="form-check-label" for="2034">Hockey</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2035">
+                                                <label class="form-check-label" for="2035">Tennis</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2036">
+                                                <label class="form-check-label" for="2036">Wrestling</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2037">
+                                                <label class="form-check-label" for="2037">Boxing</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2038">
+                                                <label class="form-check-label" for="2038">Motorsports</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2039">
+                                                <label class="form-check-label" for="2039">Billiards</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2040">
+                                                <label class="form-check-label" for="2040">Table Tennis</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2041">
+                                                <label class="form-check-label" for="2041">Kho-Kho</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2042">
+                                                <label class="form-check-label" for="2042">Squash</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2043">
+                                                <label class="form-check-label" for="2043">Fencing</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2044">
+                                                <label class="form-check-label" for="2044">Skating</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2045">
+                                                <label class="form-check-label" for="2045">Athletics</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2046">
+                                                <label class="form-check-label" for="2046">Volleyball</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2047">
+                                                <label class="form-check-label" for="2047">Taekwondo</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2048">
+                                                <label class="form-check-label" for="2048">Archery</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2049">
+                                                <label class="form-check-label" for="2049">Rugby</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2050">
+                                                <label class="form-check-label" for="2050">Gym</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2051">
+                                                <label class="form-check-label" for="2051">Yoga</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2052">
+                                                <label class="form-check-label" for="2052">Personal Trainer</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2053">
+                                                <label class="form-check-label" for="2053">Silambam</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2054">
+                                                <label class="form-check-label" for="2054">Baseball</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2055">
+                                                <label class="form-check-label" for="2055">Snooker</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2056">
+                                                <label class="form-check-label" for="2056">Carrom</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2057">
+                                                <label class="form-check-label" for="2057">Handball</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input type="checkbox" class="form-check-input" id="2058">
+                                                <label class="form-check-label" for="2058">Kalaripayattu</label>
+                                            </div>
+                                        </div>
+                                        <p><a href="javascript:void(0)" class="show-more2">More...</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseFour">
+                                        Rating
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show"
+                                    aria-labelledby="panelsStayOpen-headingFour">
+                                    <div class="accordion-body">
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="31">
+                                            <label class="form-check-label d-flex align-items-center" for="31">2.0 <img
+                                                    src="assets/img/2star.png" alt=""></label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="32">
+                                            <label class="form-check-label d-flex align-items-center" for="32">3.0 <img
+                                                    src="assets/img/3star.png" alt=""></label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="33">
+                                            <label class="form-check-label d-flex align-items-center" for="33">4.0 <img
+                                                    src="assets/img/4star.png" alt=""></label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="34">
+                                            <label class="form-check-label d-flex align-items-center" for="34">5.0 <img
+                                                    src="assets/img/5star.png" alt=""></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseFive">
+                                        More
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show"
+                                    aria-labelledby="panelsStayOpen-headingFive">
+                                    <div class="accordion-body">
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="41">
+                                            <label class="form-check-label" for="41">Open Academies</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="42">
+                                            <label class="form-check-label" for="42">Verified Only</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="filter-content">
+                    <div class="filter-tab">
+                        <div class="heading">
+                            <h6>Filters</h6>
+                            <button type="reset">Reset All</button>
+                        </div>
+                        <div class="season_tabs">
+                            <div class="season_tab">
+                                <input type="radio" id="tab-1" name="tab-group-1" checked>
+                                <label class="label-tab" for="tab-1">Localities <i
+                                        class="fa-solid fa-chevron-right"></i></label>
+
+                                <div class="season_content">
+                                    <div class="search mb-3">
+                                        <input type="search" name="" id="" placeholder="Search Localities">
+                                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                    </div>
+                                    <div class="show-more-text show-more-height scrollbar">
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="101">
+                                            <label class="form-check-label" for="101">Prayagraj</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="102">
+                                            <label class="form-check-label" for="102">Jamshedpur</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="103">
+                                            <label class="form-check-label" for="103">Gwalior</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="104">
+                                            <label class="form-check-label" for="104">Lucknow</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="105">
+                                            <label class="form-check-label" for="105">Raipur</label>
+                                        </div>
+
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="106">
+                                            <label class="form-check-label" for="106">Bareilly</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="107">
+                                            <label class="form-check-label" for="107">Shiliguri</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="108">
+                                            <label class="form-check-label" for="108">Gorakhpur</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="109">
+                                            <label class="form-check-label" for="109">Durgapur</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="110">
+                                            <label class="form-check-label" for="110">Dehra Dun</label>
+                                        </div>
+
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="111">
+                                            <label class="form-check-label" for="111">Asansol</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="112">
+                                            <label class="form-check-label" for="112">Agartala</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="113">
+                                            <label class="form-check-label" for="113">Jamnagar</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="114">
+                                            <label class="form-check-label" for="114">Udaipur</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="115">
+                                            <label class="form-check-label" for="115">Mathura</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="116">
+                                            <label class="form-check-label" for="116">Davangere</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="117">
+                                            <label class="form-check-label" for="117">Calicut</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="118">
+                                            <label class="form-check-label" for="118">Bhagalpur</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="119">
+                                            <label class="form-check-label" for="119">Rohtak</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="120">
+                                            <label class="form-check-label" for="120">Trichur</label>
+                                        </div>
+
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="121">
+                                            <label class="form-check-label" for="121">Barddhaman</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="122">
+                                            <label class="form-check-label" for="122">Hisar</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="123">
+                                            <label class="form-check-label" for="123">Aizawl</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="124">
+                                            <label class="form-check-label" for="124">Imphal</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="125">
+                                            <label class="form-check-label" for="125">Byatarayanpur</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="126">
+                                            <label class="form-check-label" for="126">Gandhidham</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="127">
+                                            <label class="form-check-label" for="127">Haridwar</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="128">
+                                            <label class="form-check-label" for="128">Ghandinagar</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="129">
+                                            <label class="form-check-label" for="129">Morbi</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="130">
+                                            <label class="form-check-label" for="130">Orai</label>
+                                        </div>
+
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="131">
+                                            <label class="form-check-label" for="131">Mahesana</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="132">
+                                            <label class="form-check-label" for="132">Kottayam</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="133">
+                                            <label class="form-check-label" for="133">Alleppey</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="134">
+                                            <label class="form-check-label" for="134">Valsad</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="135">
+                                            <label class="form-check-label" for="135">Bharuch</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="136">
+                                            <label class="form-check-label" for="136">Habra</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="137">
+                                            <label class="form-check-label" for="137">Shillong</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="138">
+                                            <label class="form-check-label" for="138">Palghat</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="139">
+                                            <label class="form-check-label" for="139">Chas</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="140">
+                                            <label class="form-check-label" for="140">Dimapur</label>
+                                        </div>
+
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="141">
+                                            <label class="form-check-label" for="141">Bansbaria</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="142">
+                                            <label class="form-check-label" for="142">Gharbara</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="143">
+                                            <label class="form-check-label" for="143">Rishikesh</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="144">
+                                            <label class="form-check-label" for="144">Vasco Da Gama</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="145">
+                                            <label class="form-check-label" for="145">Malappuram</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="146">
+                                            <label class="form-check-label" for="146">Panaji</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="147">
+                                            <label class="form-check-label" for="147">Nethirimangalam</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="148">
+                                            <label class="form-check-label" for="148">Meddappakkam</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="149">
+                                            <label class="form-check-label" for="149">Fatehpur</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="150">
+                                            <label class="form-check-label" for="150">Narsingi</label>
+                                        </div>
+
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="151">
+                                            <label class="form-check-label" for="151">Silvassa</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="152">
+                                            <label class="form-check-label" for="152">Ramnagar</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="153">
+                                            <label class="form-check-label" for="153">Zerakpur</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="154">
+                                            <label class="form-check-label" for="154">Madgaon</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="155">
+                                            <label class="form-check-label" for="155">Samastipur</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="156">
+                                            <label class="form-check-label" for="156">Lohardaga</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="157">
+                                            <label class="form-check-label" for="157">Kharar</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="158">
+                                            <label class="form-check-label" for="158">Kengri</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="159">
+                                            <label class="form-check-label" for="159">Jalandhar Cantonment</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="160">
+                                            <label class="form-check-label" for="160">Udaipur</label>
+                                        </div>
+
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="161">
+                                            <label class="form-check-label" for="161">Mussoorie</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="162">
+                                            <label class="form-check-label" for="162">Puthupalli</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="163">
+                                            <label class="form-check-label" for="163">Ladwa</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="164">
+                                            <label class="form-check-label" for="164">Varandarapilli</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="165">
+                                            <label class="form-check-label" for="165">Dugda</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="166">
+                                            <label class="form-check-label" for="166">Sahjanwa</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="167">
+                                            <label class="form-check-label" for="167">Ajnala</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="168">
+                                            <label class="form-check-label" for="168">Hirpardangal</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="169">
+                                            <label class="form-check-label" for="169">Nagla</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="170">
+                                            <label class="form-check-label" for="170">Moirang</label>
+                                        </div>
+
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="171">
+                                            <label class="form-check-label" for="171">Jugial</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="172">
+                                            <label class="form-check-label" for="172">Athagarh</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="173">
+                                            <label class="form-check-label" for="173">Saraikela</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="174">
+                                            <label class="form-check-label" for="174">Jakkampalaiyam</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="175">
+                                            <label class="form-check-label" for="175">Sailana</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="176">
+                                            <label class="form-check-label" for="176">Karma</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="177">
+                                            <label class="form-check-label" for="177">Mahuakheraganj</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="178">
+                                            <label class="form-check-label" for="178">Vikasnagar</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="179">
+                                            <label class="form-check-label" for="179">Kenduadih</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="180">
+                                            <label class="form-check-label" for="180">Khaspur</label>
+                                        </div>
+
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="181">
+                                            <label class="form-check-label" for="181">Valpoy</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="182">
+                                            <label class="form-check-label" for="182">Marai Kalan</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="183">
+                                            <label class="form-check-label" for="183">Hathiakan</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="184">
+                                            <label class="form-check-label" for="184">Aldona</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="185">
+                                            <label class="form-check-label" for="185">Navsari</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="186">
+                                            <label class="form-check-label" for="186">Bangalore</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="187">
+                                            <label class="form-check-label" for="187">Adityapur</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="188">
+                                            <label class="form-check-label" for="188">Ahmadabad</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="189">
+                                            <label class="form-check-label" for="189">Alandur</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="190">
+                                            <label class="form-check-label" for="190">Alappuzha</label>
+                                        </div>
+
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="191">
+                                            <label class="form-check-label" for="191">Allahabad</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="192">
+                                            <label class="form-check-label" for="192">Ambala</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="193">
+                                            <label class="form-check-label" for="193">Ambala Sadar</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="194">
+                                            <label class="form-check-label" for="194">Ambarnath</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="195">
+                                            <label class="form-check-label" for="195">Ambattur</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="196">
+                                            <label class="form-check-label" for="196">Amritsar</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="197">
+                                            <label class="form-check-label" for="197">Anand</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="198">
+                                            <label class="form-check-label" for="198">Arrah</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="199">
+                                            <label class="form-check-label" for="199">Ashoknagar Kalyangarh</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="200">
+                                            <label class="form-check-label" for="200">Avadi</label>
+                                        </div>
+
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="201">
+                                            <label class="form-check-label" for="201">Badlapur</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="202">
+                                            <label class="form-check-label" for="202">Bahadurgarh</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="203">
+                                            <label class="form-check-label" for="203">Baidyabati</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="204">
+                                            <label class="form-check-label" for="204">Ballia</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="205">
+                                            <label class="form-check-label" for="205">Bally</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="206">
+                                            <label class="form-check-label" for="206">Bankura</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="207">
+                                            <label class="form-check-label" for="207">Bansberia</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="208">
+                                            <label class="form-check-label" for="208">Banswara</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="209">
+                                            <label class="form-check-label" for="209">Baranagar</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="210">
+                                            <label class="form-check-label" for="210">Barasat</label>
+                                        </div>
+
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="211">
+                                            <label class="form-check-label" for="211">Baraut</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="212">
+                                            <label class="form-check-label" for="212">Barrackpur</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="213">
+                                            <label class="form-check-label" for="213">Basirhat</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="214">
+                                            <label class="form-check-label" for="214">Basti</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="215">
+                                            <label class="form-check-label" for="215">Batala</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="216">
+                                            <label class="form-check-label" for="216">Belgaum</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="217">
+                                            <label class="form-check-label" for="217">Bhadreswar</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="218">
+                                            <label class="form-check-label" for="218">Bhalswa Jahangir Pur</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="219">
+                                            <label class="form-check-label" for="219">Bharatpur</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="220">
+                                            <label class="form-check-label" for="220">Bhatpara</label>
+                                        </div>
+
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="221">
+                                            <label class="form-check-label" for="221">Bhilai Nagar</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="222">
+                                            <label class="form-check-label" for="222">Bhiwadi</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="223">
+                                            <label class="form-check-label" for="223">Bhiwandi</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="224">
+                                            <label class="form-check-label" for="224">Bhiwani</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="225">
+                                            <label class="form-check-label" for="225">Bhubaneswar Town</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="226">
+                                            <label class="form-check-label" for="226">Bhuj</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="227">
+                                            <label class="form-check-label" for="227">Bidhan Nagar</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="228">
+                                            <label class="form-check-label" for="228">Biharsharif</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="229">
+                                            <label class="form-check-label" for="229">Bokaro Steel City</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="230">
+                                            <label class="form-check-label" for="230">Bongaon</label>
+                                        </div>
+
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="231">
+                                            <label class="form-check-label" for="231">Botad</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="232">
+                                            <label class="form-check-label" for="232">Budaun</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="233">
+                                            <label class="form-check-label" for="233">Bulandshahr</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="234">
+                                            <label class="form-check-label" for="234">Burari</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="235">
+                                            <label class="form-check-label" for="235">Champdani</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="236">
+                                            <label class="form-check-label" for="236">Chandannagar</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="237">
+                                            <label class="form-check-label" for="237">Chandigarh</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="238">
+                                            <label class="form-check-label" for="238">Chapra</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="239">
+                                            <label class="form-check-label" for="239">Chennai</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="240">
+                                            <label class="form-check-label" for="240">Coimbatore</label>
+                                        </div>
+
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="241">
+                                            <label class="form-check-label" for="241">Cuttack</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="242">
+                                            <label class="form-check-label" for="242">Dabgram</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="243">
+                                            <label class="form-check-label" for="243">Dallo Pura</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="244">
+                                            <label class="form-check-label" for="244">Darbhanga</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="245">
+                                            <label class="form-check-label" for="245">Darjiling</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="246">
+                                            <label class="form-check-label" for="246">Davanagere</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="247">
+                                            <label class="form-check-label" for="247">Dehradun</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="248">
+                                            <label class="form-check-label" for="248">Delhi Cantonment</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="249">
+                                            <label class="form-check-label" for="249">Deoli</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="250">
+                                            <label class="form-check-label" for="250">Deoria</label>
+                                        </div>
+
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="251">
+                                            <label class="form-check-label" for="251">Dhanbad</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="252">
+                                            <label class="form-check-label" for="252">Dinapur Nizamat</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="253">
+                                            <label class="form-check-label" for="253">Dum Dum</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="254">
+                                            <label class="form-check-label" for="254">Durg</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="255">
+                                            <label class="form-check-label" for="255">Faridabad</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="256">
+                                            <label class="form-check-label" for="256">Gandhinagar</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="257">
+                                            <label class="form-check-label" for="257">Giridih</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="258">
+                                            <label class="form-check-label" for="258">Gokal Pur</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="259">
+                                            <label class="form-check-label" for="259">Gondal</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="260">
+                                            <label class="form-check-label" for="260">Greater Hyderabad</label>
+                                        </div>
+                                    </div>
+                                    <p><a href="#" class="show-more">More...</a></p>
+                                </div>
+                            </div>
+                            <div class="season_tab">
+                                <input type="radio" id="tab-2" name="tab-group-1">
+                                <label class="label-tab" for="tab-2">Search By <i
+                                        class="fa-solid fa-chevron-right"></i></label>
+
+                                <div class="season_content">
+                                    <div class="form-check mb-2">
+                                        <input type="checkbox" class="form-check-input" id="11">
+                                        <label class="form-check-label" for="11">Academy (857)</label>
+                                    </div>
+                                    <div class="form-check mb-2">
+                                        <input type="checkbox" class="form-check-input" id="12">
+                                        <label class="form-check-label" for="12">Coach (8578)</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="season_tab">
+                                <input type="radio" id="tab-3" name="tab-group-1">
+                                <label class="label-tab" for="tab-3">Sports <i
+                                        class="fa-solid fa-chevron-right"></i></label>
+
+                                <div class="season_content">
+                                    <div class="show-more-text2 show-more-height2 scrollbar">
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2021">
+                                            <label class="form-check-label" for="2021">Football</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2022">
+                                            <label class="form-check-label" for="2022">Basketball</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2023">
+                                            <label class="form-check-label" for="2023">Cricket</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2024">
+                                            <label class="form-check-label" for="2024">Swimming</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2025">
+                                            <label class="form-check-label" for="2025">Badminton</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2026">
+                                            <label class="form-check-label" for="2026">Golf</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2027">
+                                            <label class="form-check-label" for="2027">Shooting</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2028">
+                                            <label class="form-check-label" for="2028">MMA</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2029">
+                                            <label class="form-check-label" for="2029">Kabaddi</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2030">
+                                            <label class="form-check-label" for="2030">Gymnastics</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2031">
+                                            <label class="form-check-label" for="2031">Arts</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2032">
+                                            <label class="form-check-label" for="2032">Chess</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2033">
+                                            <label class="form-check-label" for="2033">Sports</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2034">
+                                            <label class="form-check-label" for="2034">Hockey</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2035">
+                                            <label class="form-check-label" for="2035">Tennis</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2036">
+                                            <label class="form-check-label" for="2036">Wrestling</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2037">
+                                            <label class="form-check-label" for="2037">Boxing</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2038">
+                                            <label class="form-check-label" for="2038">Motorsports</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2039">
+                                            <label class="form-check-label" for="2039">Billiards</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2040">
+                                            <label class="form-check-label" for="2040">Table Tennis</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2041">
+                                            <label class="form-check-label" for="2041">Kho-Kho</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2042">
+                                            <label class="form-check-label" for="2042">Squash</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2043">
+                                            <label class="form-check-label" for="2043">Fencing</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2044">
+                                            <label class="form-check-label" for="2044">Skating</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2045">
+                                            <label class="form-check-label" for="2045">Athletics</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2046">
+                                            <label class="form-check-label" for="2046">Volleyball</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2047">
+                                            <label class="form-check-label" for="2047">Taekwondo</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2048">
+                                            <label class="form-check-label" for="2048">Archery</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2049">
+                                            <label class="form-check-label" for="2049">Rugby</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2050">
+                                            <label class="form-check-label" for="2050">Gym</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2051">
+                                            <label class="form-check-label" for="2051">Yoga</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2052">
+                                            <label class="form-check-label" for="2052">Personal Trainer</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2053">
+                                            <label class="form-check-label" for="2053">Silambam</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2054">
+                                            <label class="form-check-label" for="2054">Baseball</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2055">
+                                            <label class="form-check-label" for="2055">Snooker</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2056">
+                                            <label class="form-check-label" for="2056">Carrom</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2057">
+                                            <label class="form-check-label" for="2057">Handball</label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input type="checkbox" class="form-check-input" id="2058">
+                                            <label class="form-check-label" for="2058">Kalaripayattu</label>
+                                        </div>
+                                    </div>
+                                    <p><a href="javascript:void(0)" class="show-more2">More...</a></p>
+                                </div>
+                            </div>
+                            <div class="season_tab">
+                                <input type="radio" id="tab-4" name="tab-group-1">
+                                <label class="label-tab" for="tab-4">Ratings <i
+                                        class="fa-solid fa-chevron-right"></i></label>
+
+                                <div class="season_content">
+                                    <div class="form-check mb-2">
+                                        <input type="checkbox" class="form-check-input" id="31">
+                                        <label class="form-check-label d-flex align-items-center" for="31">2.0 <img
+                                                src="assets/img/2star.png" alt=""></label>
+                                    </div>
+                                    <div class="form-check mb-2">
+                                        <input type="checkbox" class="form-check-input" id="32">
+                                        <label class="form-check-label d-flex align-items-center" for="32">3.0 <img
+                                                src="assets/img/3star.png" alt=""></label>
+                                    </div>
+                                    <div class="form-check mb-2">
+                                        <input type="checkbox" class="form-check-input" id="33">
+                                        <label class="form-check-label d-flex align-items-center" for="33">4.0 <img
+                                                src="assets/img/4star.png" alt=""></label>
+                                    </div>
+                                    <div class="form-check mb-2">
+                                        <input type="checkbox" class="form-check-input" id="34">
+                                        <label class="form-check-label d-flex align-items-center" for="34">5.0 <img
+                                                src="assets/img/5star.png" alt=""></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="season_tab">
+                                <input type="radio" id="tab-5" name="tab-group-1">
+                                <label class="label-tab" for="tab-5">More <i
+                                        class="fa-solid fa-chevron-right"></i></label>
+
+                                <div class="season_content">
+                                    <div class="form-check mb-2">
+                                        <input type="checkbox" class="form-check-input" id="41">
+                                        <label class="form-check-label" for="41">Open Academies</label>
+                                    </div>
+                                    <div class="form-check mb-2">
+                                        <input type="checkbox" class="form-check-input" id="42">
+                                        <label class="form-check-label" for="42">Verified Only</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-xl-8">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap">
+                        <h6 class="listing-title">300 Yoga Coaches in India</h6>
+                        <div class="right d-flex justify-content-between align-items-center flex-wrap">
+                            <div class="detect-location"><button type="button"><i
+                                        class="fa-solid fa-location-crosshairs"></i>
+                                    <span>Detect My Location</span></button>
+                            </div>
+                            <button type="menu" class="d-block d-sm-none" id="btn-open">Filter</button>
+                            <select name="" id="" class="form-control">
+                                <option value="">Sort by</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="coaches-list-wrapper">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="coache-box">
+                                    <div class="top">
+                                        <figure>
+                                            <div class="coaches-js">
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img01.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img02.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img03.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img04.png" alt="">
+                                                </div>
+                                            </div>
+                                            <span class="recommended">Recommended</span>
+                                        </figure>
+                                        <aside>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="rating"><img src="assets/img/star-rating.svg"
+                                                        alt=""><strong>4.5</strong> (25)</div>
+                                                <div class="verified"><img src="assets/img/verified.svg" alt="">Verified
+                                                </div>
+                                            </div>
+                                            <h6>Saimon Jhonson</h6>
+                                            <p><strong>Yoga</strong></p>
+                                            <div class="d-flex justify-content-start align-items-start">
+                                                <i class="fa-solid fa-location-dot"></i>
+                                                <p>Zawar, Bhalariya, Rajasthan, 313901</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="prize">₹ 5,000<span>/m</span></div>
+                                                <div class="free">Free Trial Class*</div>
+                                            </div>
+                                        </aside>
+                                    </div>
+                                    <div class="mid">
+                                        <ul class="tags">
+                                            <li>Hasta Yoga</li>
+                                            <li>Fitness Coach</li>
+                                            <li>Core Workout</li>
+                                            <a class="read-more-show hide" href="#" id="1">3 More..</a>
+                                            <span class="read-more-content">
+                                                <ul class="tags">
+                                                    <li>Kids</li>
+                                                    <li>Coaching</li>
+                                                    <li>Women Friendly</li>
+                                                </ul>
+                                                <a class="read-more-hide hide" href="#" more-id="1">Less</a>
+                                            </span>
+                                        </ul>
+                                        <hr>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="viewed"><img src="assets/img/icon-viewed.svg" alt="">11 people
+                                                viewed since last week</div>
+                                            <div class="graph"><img src="assets/img/icon-trending-up.svg" alt="">12%
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bot">
+                                        <button type="button"><a href="message.html"><img src="assets/img/icon-comment.svg"
+                                                alt=""> Message</a></button>
+                                        <button type="button"><img src="assets/img/icon-whatsapp.svg"
+                                                alt="">WhatsApp</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="coache-box">
+                                    <div class="top">
+                                        <figure>
+                                            <div class="coaches-js">
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img02.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img04.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img03.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img01.png" alt="">
+                                                </div>
+                                            </div>
+                                            <span class="recommended">Recommended</span>
+                                        </figure>
+                                        <aside>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="rating"><img src="assets/img/star-rating.svg"
+                                                        alt=""><strong>4.5</strong> (25)</div>
+                                                <div class="verified"><img src="assets/img/verified.svg" alt="">Verified
+                                                </div>
+                                            </div>
+                                            <h6>Saimon Jhonson</h6>
+                                            <p><strong>Yoga</strong></p>
+                                            <div class="d-flex justify-content-start align-items-start">
+                                                <i class="fa-solid fa-location-dot"></i>
+                                                <p>Zawar, Bhalariya, Rajasthan, 313901</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="prize">₹ 5,000<span>/m</span></div>
+                                                <div class="free">Free Trial Class*</div>
+                                            </div>
+                                        </aside>
+                                    </div>
+                                    <div class="mid">
+                                        <ul class="tags">
+                                            <li>Hasta Yoga</li>
+                                            <li>Fitness Coach</li>
+                                            <li>Core Workout</li>
+                                            <a class="read-more-show hide" href="#" id="2">3 More..</a>
+                                            <span class="read-more-content">
+                                                <ul class="tags">
+                                                    <li>Kids</li>
+                                                    <li>Coaching</li>
+                                                    <li>Women Friendly</li>
+                                                </ul>
+                                                <a class="read-more-hide hide" href="#" more-id="2">Less</a>
+                                            </span>
+                                        </ul>
+                                        <hr>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="viewed"><img src="assets/img/icon-viewed.svg" alt="">11 people
+                                                viewed since last week</div>
+                                            <div class="graph"><img src="assets/img/icon-trending-up.svg" alt="">12%
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bot">
+                                        <button type="button"><a href="message.html"><img src="assets/img/icon-comment.svg"
+                                                alt=""> Message</a></button>
+                                        <button type="button"><img src="assets/img/icon-whatsapp.svg"
+                                                alt="">WhatsApp</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="coache-box">
+                                    <div class="top">
+                                        <figure>
+                                            <div class="coaches-js">
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img03.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img01.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img02.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img04.png" alt="">
+                                                </div>
+                                            </div>
+                                            <span class="recommended">Recommended</span>
+                                        </figure>
+                                        <aside>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="rating"><img src="assets/img/star-rating.svg"
+                                                        alt=""><strong>4.5</strong> (25)</div>
+                                                <div class="verified"><img src="assets/img/verified.svg" alt="">Verified
+                                                </div>
+                                            </div>
+                                            <h6>Saimon Jhonson</h6>
+                                            <p><strong>Yoga</strong></p>
+                                            <div class="d-flex justify-content-start align-items-start">
+                                                <i class="fa-solid fa-location-dot"></i>
+                                                <p>Zawar, Bhalariya, Rajasthan, 313901</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="prize">₹ 5,000<span>/m</span></div>
+                                                <div class="free">Free Trial Class*</div>
+                                            </div>
+                                        </aside>
+                                    </div>
+                                    <div class="mid">
+                                        <ul class="tags">
+                                            <li>Hasta Yoga</li>
+                                            <li>Fitness Coach</li>
+                                            <li>Core Workout</li>
+                                            <a class="read-more-show hide" href="#" id="3">3 More..</a>
+                                            <span class="read-more-content">
+                                                <ul class="tags">
+                                                    <li>Kids</li>
+                                                    <li>Coaching</li>
+                                                    <li>Women Friendly</li>
+                                                </ul>
+                                                <a class="read-more-hide hide" href="#" more-id="3">Less</a>
+                                            </span>
+                                        </ul>
+                                        <hr>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="viewed"><img src="assets/img/icon-viewed.svg" alt="">11 people
+                                                viewed since last week</div>
+                                            <div class="graph"><img src="assets/img/icon-trending-up.svg" alt="">12%
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bot">
+                                        <button type="button"><a href="message.html"><img src="assets/img/icon-comment.svg"
+                                                alt=""> Message</a></button>
+                                        <button type="button"><img src="assets/img/icon-whatsapp.svg"
+                                                alt="">WhatsApp</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="coache-box">
+                                    <div class="top">
+                                        <figure>
+                                            <div class="coaches-js">
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img04.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img03.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img02.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img01.png" alt="">
+                                                </div>
+                                            </div>
+                                            <span class="recommended">Recommended</span>
+                                        </figure>
+                                        <aside>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="rating"><img src="assets/img/star-rating.svg"
+                                                        alt=""><strong>4.5</strong> (25)</div>
+                                                <div class="verified"><img src="assets/img/verified.svg" alt="">Verified
+                                                </div>
+                                            </div>
+                                            <h6>Saimon Jhonson</h6>
+                                            <p><strong>Yoga</strong></p>
+                                            <div class="d-flex justify-content-start align-items-start">
+                                                <i class="fa-solid fa-location-dot"></i>
+                                                <p>Zawar, Bhalariya, Rajasthan, 313901</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="prize">₹ 5,000<span>/m</span></div>
+                                                <div class="free">Free Trial Class*</div>
+                                            </div>
+                                        </aside>
+                                    </div>
+                                    <div class="mid">
+                                        <ul class="tags">
+                                            <li>Hasta Yoga</li>
+                                            <li>Fitness Coach</li>
+                                            <li>Core Workout</li>
+                                            <a class="read-more-show hide" href="#" id="4">3 More..</a>
+                                            <span class="read-more-content">
+                                                <ul class="tags">
+                                                    <li>Kids</li>
+                                                    <li>Coaching</li>
+                                                    <li>Women Friendly</li>
+                                                </ul>
+                                                <a class="read-more-hide hide" href="#" more-id="4">Less</a>
+                                            </span>
+                                        </ul>
+                                        <hr>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="viewed"><img src="assets/img/icon-viewed.svg" alt="">11 people
+                                                viewed since last week</div>
+                                            <div class="graph"><img src="assets/img/icon-trending-up.svg" alt="">12%
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bot">
+                                        <button type="button"><a href="message.html"><img src="assets/img/icon-comment.svg"
+                                                alt=""> Message</a></button>
+                                        <button type="button"><img src="assets/img/icon-whatsapp.svg"
+                                                alt="">WhatsApp</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="coache-box">
+                                    <div class="top">
+                                        <figure>
+                                            <div class="coaches-js">
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img01.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img02.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img03.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img04.png" alt="">
+                                                </div>
+                                            </div>
+                                            <span class="recommended">Recommended</span>
+                                        </figure>
+                                        <aside>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="rating"><img src="assets/img/star-rating.svg"
+                                                        alt=""><strong>4.5</strong> (25)</div>
+                                                <div class="verified"><img src="assets/img/verified.svg" alt="">Verified
+                                                </div>
+                                            </div>
+                                            <h6>Saimon Jhonson</h6>
+                                            <p><strong>Yoga</strong></p>
+                                            <div class="d-flex justify-content-start align-items-start">
+                                                <i class="fa-solid fa-location-dot"></i>
+                                                <p>Zawar, Bhalariya, Rajasthan, 313901</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="prize">₹ 5,000<span>/m</span></div>
+                                                <div class="free">Free Trial Class*</div>
+                                            </div>
+                                        </aside>
+                                    </div>
+                                    <div class="mid">
+                                        <ul class="tags">
+                                            <li>Hasta Yoga</li>
+                                            <li>Fitness Coach</li>
+                                            <li>Core Workout</li>
+                                            <a class="read-more-show hide" href="#" id="5">3 More..</a>
+                                            <span class="read-more-content">
+                                                <ul class="tags">
+                                                    <li>Kids</li>
+                                                    <li>Coaching</li>
+                                                    <li>Women Friendly</li>
+                                                </ul>
+                                                <a class="read-more-hide hide" href="#" more-id="5">Less</a>
+                                            </span>
+                                        </ul>
+                                        <hr>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="viewed"><img src="assets/img/icon-viewed.svg" alt="">11 people
+                                                viewed since last week</div>
+                                            <div class="graph"><img src="assets/img/icon-trending-up.svg" alt="">12%
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bot">
+                                        <button type="button"><a href="message.html"><img src="assets/img/icon-comment.svg"
+                                                alt=""> Message</a></button>
+                                        <button type="button"><img src="assets/img/icon-whatsapp.svg"
+                                                alt="">WhatsApp</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="coache-box">
+                                    <div class="top">
+                                        <figure>
+                                            <div class="coaches-js">
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img02.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img01.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img03.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img04.png" alt="">
+                                                </div>
+                                            </div>
+                                            <span class="recommended">Recommended</span>
+                                        </figure>
+                                        <aside>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="rating"><img src="assets/img/star-rating.svg"
+                                                        alt=""><strong>4.5</strong> (25)</div>
+                                                <div class="verified"><img src="assets/img/verified.svg" alt="">Verified
+                                                </div>
+                                            </div>
+                                            <h6>Saimon Jhonson</h6>
+                                            <p><strong>Yoga</strong></p>
+                                            <div class="d-flex justify-content-start align-items-start">
+                                                <i class="fa-solid fa-location-dot"></i>
+                                                <p>Zawar, Bhalariya, Rajasthan, 313901</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="prize">₹ 5,000<span>/m</span></div>
+                                                <div class="free">Free Trial Class*</div>
+                                            </div>
+                                        </aside>
+                                    </div>
+                                    <div class="mid">
+                                        <ul class="tags">
+                                            <li>Hasta Yoga</li>
+                                            <li>Fitness Coach</li>
+                                            <li>Core Workout</li>
+                                            <a class="read-more-show hide" href="#" id="6">3 More..</a>
+                                            <span class="read-more-content">
+                                                <ul class="tags">
+                                                    <li>Kids</li>
+                                                    <li>Coaching</li>
+                                                    <li>Women Friendly</li>
+                                                </ul>
+                                                <a class="read-more-hide hide" href="#" more-id="6">Less</a>
+                                            </span>
+                                        </ul>
+                                        <hr>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="viewed"><img src="assets/img/icon-viewed.svg" alt="">11 people
+                                                viewed since last week</div>
+                                            <div class="graph"><img src="assets/img/icon-trending-up.svg" alt="">12%
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bot">
+                                        <button type="button"><a href="message.html"><img src="assets/img/icon-comment.svg"
+                                                alt=""> Message</a></button>
+                                        <button type="button"><img src="assets/img/icon-whatsapp.svg"
+                                                alt="">WhatsApp</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="coache-box">
+                                    <div class="top">
+                                        <figure>
+                                            <div class="coaches-js">
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img03.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img02.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img01.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img04.png" alt="">
+                                                </div>
+                                            </div>
+                                            <span class="recommended">Recommended</span>
+                                        </figure>
+                                        <aside>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="rating"><img src="assets/img/star-rating.svg"
+                                                        alt=""><strong>4.5</strong> (25)</div>
+                                                <div class="verified"><img src="assets/img/verified.svg" alt="">Verified
+                                                </div>
+                                            </div>
+                                            <h6>Saimon Jhonson</h6>
+                                            <p><strong>Yoga</strong></p>
+                                            <div class="d-flex justify-content-start align-items-start">
+                                                <i class="fa-solid fa-location-dot"></i>
+                                                <p>Zawar, Bhalariya, Rajasthan, 313901</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="prize">₹ 5,000<span>/m</span></div>
+                                                <div class="free">Free Trial Class*</div>
+                                            </div>
+                                        </aside>
+                                    </div>
+                                    <div class="mid">
+                                        <ul class="tags">
+                                            <li>Hasta Yoga</li>
+                                            <li>Fitness Coach</li>
+                                            <li>Core Workout</li>
+                                            <a class="read-more-show hide" href="#" id="7">3 More..</a>
+                                            <span class="read-more-content">
+                                                <ul class="tags">
+                                                    <li>Kids</li>
+                                                    <li>Coaching</li>
+                                                    <li>Women Friendly</li>
+                                                </ul>
+                                                <a class="read-more-hide hide" href="#" more-id="7">Less</a>
+                                            </span>
+                                        </ul>
+                                        <hr>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="viewed"><img src="assets/img/icon-viewed.svg" alt="">11 people
+                                                viewed since last week</div>
+                                            <div class="graph"><img src="assets/img/icon-trending-up.svg" alt="">12%
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bot">
+                                        <button type="button"><a href="message.html"><img src="assets/img/icon-comment.svg"
+                                                alt=""> Message</a></button>
+                                        <button type="button"><img src="assets/img/icon-whatsapp.svg"
+                                                alt="">WhatsApp</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="coache-box">
+                                    <div class="top">
+                                        <figure>
+                                            <div class="coaches-js">
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img04.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img02.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img03.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="assets/img/coach-img01.png" alt="">
+                                                </div>
+                                            </div>
+                                            <span class="recommended">Recommended</span>
+                                        </figure>
+                                        <aside>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="rating"><img src="assets/img/star-rating.svg"
+                                                        alt=""><strong>4.5</strong> (25)</div>
+                                                <div class="verified"><img src="assets/img/verified.svg" alt="">Verified
+                                                </div>
+                                            </div>
+                                            <h6>Saimon Jhonson</h6>
+                                            <p><strong>Yoga</strong></p>
+                                            <div class="d-flex justify-content-start align-items-start">
+                                                <i class="fa-solid fa-location-dot"></i>
+                                                <p>Zawar, Bhalariya, Rajasthan, 313901</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="prize">₹ 5,000<span>/m</span></div>
+                                                <div class="free">Free Trial Class*</div>
+                                            </div>
+                                        </aside>
+                                    </div>
+                                    <div class="mid">
+                                        <ul class="tags">
+                                            <li>Hasta Yoga</li>
+                                            <li>Fitness Coach</li>
+                                            <li>Core Workout</li>
+                                            <a class="read-more-show hide" href="#" id="8">3 More..</a>
+                                            <span class="read-more-content">
+                                                <ul class="tags">
+                                                    <li>Kids</li>
+                                                    <li>Coaching</li>
+                                                    <li>Women Friendly</li>
+                                                </ul>
+                                                <a class="read-more-hide hide" href="#" more-id="8">Less</a>
+                                            </span>
+                                        </ul>
+                                        <hr>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="viewed"><img src="assets/img/icon-viewed.svg" alt="">11 people
+                                                viewed since last week</div>
+                                            <div class="graph"><img src="assets/img/icon-trending-up.svg" alt="">12%
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bot">
+                                        <button type="button"><a href="message.html"><img src="assets/img/icon-comment.svg"
+                                                alt=""> Message</a></button>
+                                        <button type="button"><img src="assets/img/icon-whatsapp.svg"
+                                                alt="">WhatsApp</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="subscription-section clearfix">
+        <div class="container">
+            <div class="newsletter-section">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6">
+                        <h3>Join BookMyPlayer Now</h3>
+                        <p>Join Us now if you are a player and need a boost in your career</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-box">
+                            <input type="email" name="" id="" placeholder="Enter Your email address">
+                            <input type="submit" class="btn btn-secondary" value="Subscribe">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="socials-section">
+                <h5>Thank you! We will get in touch with you as soon as possible.</h5>
+                <ul class="socials">
+                    <li><a href="http://" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="http://" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="http://" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="http://" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="http://" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- /CONTENT SECTION -->
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer-section clearfix">
+        <div class="container">
+            <div class="top-section d-none d-md-block">
+                <figure><img src="assets/img/footer-logo.png" alt=""></figure>
+                <p>Unlock your potential and connect with your dream clubs today! Join and showcase your talent to a
+                    world of opportunities. Empower your athletic journey and take the first step towards realising your
+                    dreams. Start creating your profile now!</p>
+            </div>
+            <div class="mid-section">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3 d-none d-lg-block d-md-block">
+                        <h6>Quick Links</h6>
+                        <ul class="links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Blogs</a></li>
+                            <li><a href="#">Tournament</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Support Center</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-3 d-none d-lg-block d-md-block">
+                        <h6>Top Sports</h6>
+                        <ul class="links">
+                            <li><a href="#">Cricket</a></li>
+                            <li><a href="#">Football</a></li>
+                            <li><a href="#">Basketball</a></li>
+                            <li><a href="#">Badminton</a></li>
+                            <li><a href="#">Kabaddi</a></li>
+                            <li><a href="#">MMA</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5 col-md-6 d-none d-lg-block d-md-block">
+                        <h6>Top Cities</h6>
+                        <ul class="links two-columns">
+                            <li><a href="#">Delhi</a></li>
+                            <li><a href="#">Mumbai</a></li>
+                            <li><a href="#">Bengaluru</a></li>
+                            <li><a href="#">Gurgaon</a></li>
+                            <li><a href="#">Noida</a></li>
+                            <li><a href="#">Hyderabad</a></li>
+                            <li><a href="#">Chennai</a></li>
+                            <li><a href="#">Pune</a></li>
+                            <li><a href="#">Kochi</a></li>
+                            <li><a href="#">Chandigarh</a></li>
+                            <li><a href="#">Jaipur</a></li>
+                            <li><a href="#">Kolkata</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-12 get-in-touch">
+                        <h6>Get In Touch</h6>
+                        <ul class="links">
+                            <li><a href="mailto:care@bookmyplayer"><i class="fa-regular fa-envelope"></i>
+                                    care@bookmyplayer</a></li>
+                        </ul>
+                        <ul class="socials">
+                            <li><a href="http://" target="_blank" rel="noopener noreferrer"><i
+                                        class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="http://" target="_blank" rel="noopener noreferrer"><i
+                                        class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="http://" target="_blank" rel="noopener noreferrer"><i
+                                        class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="http://" target="_blank" rel="noopener noreferrer"><i
+                                        class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bot-section">
+                <div class="row">
+                    <div class="col-lg-6 col-md-5">
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-md-7">
+                        <p>© 2024 by <strong>Book My Player</strong> All Rights and Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /FOOTER SECTION -->
+
+    <!-- JAVASCRIPT SECTION -->
+    <script src="https://kit.fontawesome.com/6d54d92cfd.js" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- /JAVASCRIPT SECTION -->
+
+</body>
+
+</html>

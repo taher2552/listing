@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+.landing-register-section {
+    background-color: #fff6f5;
+    padding: 80px 0;
+}
+
+.landing-register-section section {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 1020px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+.landing-options-link {
+    border-radius: 20px;
+    overflow: hidden;
+    display: block;
+    transition: all .4s ease-in-out;
+}
+
+.landing-options-link:hover {
+    transition: all .4s ease-in-out;
+}
+
+.landing-options-img {
+    border-radius: 20px;
+    position: relative;
+    aspect-ratio: 2 / 1.2;
+}
+
+.landing-options-img img.object-fit {
+    border-radius: 20px;
+}
+
+.landing-options-icon {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: -50px;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 12px;
+    box-shadow: 0 0 25px rgba(239, 223, 221, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-options-icon img {
+    opacity: 0.6;
+}
+
+.landing-options-link:hover .landing-options-icon img {
+    opacity: 1;
+}
+
+.landing-options-content {
+    padding: 65px 0 0 0;
+    text-align: center;
+}
+
+.landing-options-content h3 {
+    font-size: 22px;
+    color: #1E212F;
+    font-weight: 600;
+    padding-bottom: 6px;
+}
+
+.landing-options-link:hover .landing-options-content h3 {
+    color: #FB5D52;
+}
+
+.landing-options-content p {
+    font-size: 14px;
+    color: #484C5B;
+    font-weight: 500;
+    line-height: 20px;
+    padding-bottom: 15px;
+}
+
+.landing-options-content button {
+    width: 50px;
+    height: 50px;
+    background-color: #FEDFDC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FB5D52;
+    border: none;
+    border-radius: 50px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.landing-options-link:hover .landing-options-content button {
+    background-color: #FB5D52;
+    color: #fff;
+}
+
+@media only screen and (max-width:760px) {
+    .landing-register-section {
+        padding: 15px;
+    }
+
+    .landing-register-section section {
+        padding: 0 15px;
+    }
+
+    .landing-register-section section [class*="col-"] {
+        padding: calc(var(--bs-gutter-x) * .5);
+    }
+
+    .landing-options-icon {
+        bottom: -30px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .landing-options-icon img {
+        opacity: 1;
+        width: 36px;
+    }
+
+    .landing-options-content {
+        padding: 40px 0 0 0;
+    }
+
+    .landing-options-content h3 {
+        font-size: 18px;
+    }
+
+    .landing-options-content button {
+        width: 40px;
+        height: 40px;
+        background-color: #FB5D52;
+        color: #FFFFFF;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:761px) and (max-width:1024px) {
+    .landing-register-section {
+        padding: 15px;
+        min-height: 100vh;
+    }
+
+    .landing-register-section section {
+        padding: 15px;
+    }
+
+    .landing-options-icon {
+        bottom: -30px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .landing-options-icon img {
+        opacity: 1;
+        width: 36px;
+    }
+
+    .landing-options-content {
+        padding: 40px 0 0 0;
+    }
+
+    .landing-options-content h3 {
+        font-size: 18px;
+    }
+}

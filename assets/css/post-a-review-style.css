@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+.post-a-review-section {
+    padding: 50px 0;
+    background-color: #FFF6F5;
+    min-height: 100vh;
+}
+
+.post-a-review-section .container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.post-a-review-section .profile-box {
+    padding: 15px;
+    min-height: 200px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px 0px #FB5D5233;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.post-a-review-section .profile-box figure {
+    margin: 0;
+    padding: 0;
+    width: 170px;
+    width: 170px;
+}
+
+.post-a-review-section .profile-box figure img {
+    border-radius: 10px;
+}
+
+.post-a-review-section .profile-box article {
+    width: calc(100% - 185px);
+}
+
+.post-a-review-section .profile-box article h6 span {
+    color: #FB5D52;
+}
+
+.post-a-review-section .profile-box article p {
+    margin: .5rem 0 0 0;
+}
+
+.post-a-review-section .profile-box article p i {
+    width: 20px;
+    text-align: center;
+}
+
+.post-a-review-section .start-reviewing-box {
+    margin: 30px 0;
+    padding: 30px;
+    min-height: 200px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px 0px #FB5D5233;
+}
+
+.post-a-review-section .start-reviewing-box h5 {
+    font-weight: 700;
+    margin: 0;
+}
+
+#full-stars-example .rating-group {
+    display: inline-flex;
+}
+
+#full-stars-example .rating__icon {
+    pointer-events: none;
+}
+
+#full-stars-example .rating__input {
+    position: absolute !important;
+    left: -9999px !important;
+}
+
+#full-stars-example .rating__label {
+    cursor: pointer;
+    padding: 0 0.1em;
+    font-size: 2rem;
+}
+
+#full-stars-example .rating__icon--star {
+    color: orange;
+}
+
+#full-stars-example .rating__icon--none {
+    color: #eee;
+}
+
+#full-stars-example .rating__input--none:checked+.rating__label .rating__icon--none {
+    color: red;
+}
+
+#full-stars-example .rating__input:checked~.rating__label .rating__icon--star {
+    color: #ddd;
+}
+
+#full-stars-example .rating-group:hover .rating__label .rating__icon--star {
+    color: orange;
+}
+
+#full-stars-example .rating__input:hover~.rating__label .rating__icon--star {
+    color: #ddd;
+}
+
+#full-stars-example .rating-group:hover .rating__input--none:not(:hover)+.rating__label .rating__icon--none {
+    color: #eee;
+}
+
+#full-stars-example .rating__input--none:hover+.rating__label .rating__icon--none {
+    color: red;
+}
+
+.form-control {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #ECD7D4;
+    padding: 14px 15px;
+    font-size: 14px;
+    color: #484C5B;
+    font-weight: 500;
+    width: 100%;
+    display: block;
+}
+
+select {
+    background: #FFFFFF url(../img/dd-arrow.png) no-repeat right;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+textarea {
+    height: 120px;
+    overflow: auto;
+    resize: none;
+}
+
+.your-name {
+    background: #FFFFFF url(../img/user-icon.svg) no-repeat right;
+    padding: 14px 40px 14px 15px;
+}
+
+.your-email {
+    background: #FFFFFF url(../img/messege-icon.svg) no-repeat right;
+}
+
+.your-phone {
+    background: #FFFFFF url(../img/phone-icon.svg) no-repeat right;
+}
+
+.location {
+    background: #FFFFFF url(../img/location-icon.svg) no-repeat right;
+    padding: 14px 40px 14px 15px;
+}
+
+@media only screen and (max-width:760px) {
+    .post-a-review-section .profile-box {
+        padding: 10px;
+        min-height: inherit;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .post-a-review-section .profile-box figure {
+        width: 90px;
+        width: 90px;
+    }
+
+    .post-a-review-section .profile-box article {
+        width: calc(100% - 100px);
+    }
+
+    .post-a-review-section .profile-box article p {
+        font-size: 12px;
+    }
+
+    .post-a-review-section .start-reviewing-box {
+        margin: 15px auto;
+        padding: 15px;
+    }
+
+    #full-stars-example .rating__label {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width:761px) and (max-width:1024px) {}

@@ -1,0 +1,576 @@
+@charset "utf-8";
+
+.dashboard-menu-section {
+    padding: 50px 0;
+}
+
+.dashboard-menu-section .page-menu a {
+    min-height: 100px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px #FB5D524D;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    color: #484C5B;
+    transition: all .4s ease-in-out;
+}
+
+.dashboard-menu-section .page-menu a [class^="icon-"] {
+    font-size: 24px;
+}
+
+.dashboard-menu-section .page-menu a:hover {
+    background-color: #FFF6F5;
+    transition: all .4s ease-in-out;
+}
+
+.dashboard-menu-section .page-menu a.active {
+    background-color: #FB5D52;
+    color: #FFFFFF;
+    transition: all .4s ease-in-out;
+}
+
+.dashboard-menu-section .page-menu {
+    position: relative;
+}
+
+.dashboard-menu-section .page-menu .profile-progress {
+    width: calc(100% - 30px);
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard-menu-section .page-menu .progress-bar {
+    width: calc(100% - 35px);
+    height: 2px;
+    background: #484C5B80;
+    border-radius: 2px;
+    position: relative;
+}
+
+.dashboard-menu-section .page-menu .progress-bar span {
+    height: 2px;
+    background: #000000;
+    border-radius: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.dashboard-menu-section .page-menu .progress-txt {
+    width: 35px;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 600;
+    color: #484C5B;
+}
+
+
+.dashboard-menu-section .page-menu.active-page .profile-progress {
+    width: calc(100% - 30px);
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard-menu-section .page-menu.active-page .progress-bar {
+    width: calc(100% - 35px);
+    height: 2px;
+    background: #FFFFFF80;
+    border-radius: 2px;
+    position: relative;
+}
+
+.dashboard-menu-section .page-menu.active-page .progress-bar span {
+    height: 2px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.dashboard-menu-section .page-menu.active-page .progress-txt {
+    width: 35px;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+
+
+
+
+.dashboard-info-section .profile-box {
+    padding: 15px;
+    min-height: 200px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px 0px #FB5D5233;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.dashboard-info-section .profile-box figure {
+    margin: 0;
+    padding: 0;
+    width: 170px;
+    width: 170px;
+}
+
+.dashboard-info-section .profile-box figure img {
+    border-radius: 10px;
+}
+
+.dashboard-info-section .profile-box article {
+    width: calc(100% - 185px);
+}
+
+.dashboard-info-section .profile-box article h6 span {
+    color: #FB5D52;
+}
+
+.dashboard-info-section .profile-box article p {
+    margin: .5rem 0 0 0;
+}
+
+.dashboard-info-section .profile-box article p i {
+    width: 20px;
+    text-align: center;
+}
+
+.dashboard-info-section .upgrade-box {
+    padding: 25px;
+    min-height: 200px;
+    background: #ECB76E url(../img/graphic.svg) no-repeat bottom;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px 0px #FB5D5233;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+
+.dashboard-info-section .upgrade-box .upgradebutton {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.dashboard-info-section .upgrade-box h5 {
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.dashboard-info-section .upgrade-box p {
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.dashboard-total-section {
+    padding: 50px 0;
+}
+
+.dashboard-total-section .total-box {
+    min-height: 100px;
+    background: #FFF6F5;
+    border: 1px solid #ECD7D4;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.dashboard-total-section .total-box figure {
+    margin: 0;
+    padding: 15px;
+    width: 70px;
+    height: 70px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0px 0px 25px 0px #FB5D5233;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-total-section .total-box figure img {
+    width: 30px;
+}
+
+.dashboard-total-section .total-box aside {
+    width: calc(100% - 85px);
+}
+
+.dashboard-total-section .total-box aside p {
+    margin-bottom: 0;
+}
+
+.dashboard-total-section .total-box aside h5 {
+    margin: 0;
+}
+
+.complete-profile-section section {
+    padding: 15px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px 0px #FB5D5233;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.complete-profile-section section h5 {
+    margin: 0;
+}
+
+.complete-profile-section section .profile-progress {
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.complete-profile-section section .progress-bar {
+    width: calc(100% - 40px);
+    height: 4px;
+    background: #484C5B80;
+    border-radius: 4px;
+    position: relative;
+}
+
+.complete-profile-section section .progress-bar span {
+    height: 4px;
+    background: #000000;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.complete-profile-section section .progress-txt {
+    width: 40px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+    color: #484C5B;
+}
+
+.dashboard-reviews-section {
+    padding: 50px 0 100px 0;
+}
+
+.reviews-box {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(239, 223, 221, 0.50);
+    padding: 5px 20px;
+}
+
+.reviews-box .card {
+    padding: 15px 0;
+    background: url(../img/q-mark.svg) no-repeat top;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #E4E4E6;
+}
+
+.reviews-box .card .card-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    background: none;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+.reviews-box .card .card-header h6 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.reviews-box .card .card-header p {
+    margin: 0;
+}
+
+.reviews-box .card .card-image {
+    width: 50px;
+    height: 50px;
+}
+
+.reviews-box .card .card-info {
+    width: calc(100% - 150px);
+}
+
+.reviews-box .card .card-rating {
+    width: 64px;
+}
+
+.reviews-box .card .card-content {
+    width: 100%;
+}
+
+.reviews-box .card .card-content p {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width:760px) {
+    .dashboard-menu-section {
+        padding: 10px 0;
+    }
+
+    .dashboard-menu-section .row {
+        margin: 0 -5px;
+    }
+
+    .dashboard-menu-section [class*="col-"] {
+        padding: 5px;
+    }
+
+    .dashboard-menu-section .page-menu a {
+        min-height: 70px;
+        padding: 10px;
+        font-size: 12px;
+        gap: 0px;
+    }
+
+    .dashboard-menu-section .page-menu a [class^="icon-"] {
+        font-size: 16px;
+    }
+
+    .dashboard-menu-section .page-menu .profile-progress {
+        width: calc(100% - 20px);
+        left: 10px;
+        right: 10px;
+        top: 3px;
+    }
+
+    .dashboard-menu-section .page-menu .progress-bar {
+        width: calc(100% - 30px);
+    }
+
+    .dashboard-menu-section .page-menu .progress-txt {
+        font-size: 10px;
+        width: 30px;
+    }
+
+    .dashboard-info-section .row {
+        margin: 0 -5px;
+    }
+
+    .dashboard-info-section [class*="col-"] {
+        padding: 5px;
+    }
+
+    .dashboard-info-section .profile-box {
+        padding: 10px;
+        min-height: inherit;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .dashboard-info-section .profile-box figure {
+        width: 90px;
+        width: 90px;
+    }
+
+    .dashboard-info-section .profile-box article {
+        width: calc(100% - 100px);
+    }
+
+    .dashboard-info-section .profile-box article p {
+        font-size: 12px;
+    }
+
+    .dashboard-info-section .upgrade-box {
+        padding: 15px;
+        min-height: inherit;
+        background-size: contain;
+    }
+
+    .dashboard-info-section .upgrade-box .upgradebutton {
+        right: 10px;
+        top: 10px;
+    }
+
+    .dashboard-total-section {
+        padding: 15px 0;
+    }
+
+    .dashboard-total-section .row {
+        margin: 0 -5px;
+    }
+
+    .dashboard-total-section [class*="col-"] {
+        padding: 5px;
+    }
+
+    .dashboard-total-section .total-box {
+        padding: 10px;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .dashboard-total-section .total-box figure {
+        padding: 10px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .dashboard-total-section .total-box aside {
+        width: 100%;
+    }
+
+    .complete-profile-section section {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .complete-profile-section section .profile-progress {
+        width: 100%;
+    }
+
+    .complete-profile-section section .btn-secondary {
+        width: 100%;
+    }
+
+    .dashboard-reviews-section {
+        padding: 30px 0 50px 0;
+    }
+}
+
+@media only screen and (min-width:761px) and (max-width:1024px) {
+    .dashboard-menu-section .row {
+        margin: 0 -5px;
+    }
+
+    .dashboard-menu-section [class*="col-"] {
+        padding: 5px;
+    }
+
+    .dashboard-menu-section .page-menu a {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .dashboard-info-section .profile-box figure {
+        width: 90px;
+        width: 90px;
+    }
+
+    .dashboard-info-section .profile-box {
+        align-items: flex-start;
+    }
+
+    .dashboard-info-section .profile-box article {
+        width: calc(100% - 105px);
+    }
+
+    .dashboard-info-section .profile-box article p {
+        font-size: 14px;
+    }
+
+    .dashboard-info-section .upgrade-box {
+        padding: 15px;
+    }
+
+    .dashboard-total-section .total-box {
+        flex-wrap: wrap;
+    }
+
+    .dashboard-total-section .total-box aside {
+        width: 100%;
+    }
+
+    .complete-profile-section section .btn-secondary {
+        white-space: nowrap;
+    }
+}
+
+.reviews-form .form-control {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #ECD7D4;
+    padding: 14px 15px;
+    font-size: 14px;
+    color: #484C5B;
+    font-weight: 500;
+    width: 100%;
+    display: block;
+}
+
+.reviews-form .your-name {
+    background: #FFFFFF url(../img/user-icon.svg) no-repeat right;
+}
+
+.reviews-form .your-email {
+    background: #FFFFFF url(../img/messege-icon.svg) no-repeat right;
+}
+
+.reviews-form .your-phone {
+    background: #FFFFFF url(../img/phone-icon.svg) no-repeat right;
+}
+
+.reviews-form button[type="button"] {
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    overflow: auto;
+}
+
+.divider {
+    display: flex;
+}
+
+.divider:before,
+.divider:after {
+    content: "";
+    flex: 1;
+}
+
+.line {
+    align-items: center;
+    margin: 1em -1em;
+}
+
+.line:before,
+.line:after {
+    height: 1px;
+    margin: 0 1em;
+}
+
+.one-line:before,
+.one-line:after {
+    background: #484C5B;
+}

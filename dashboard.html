@@ -1,0 +1,405 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Book My Player</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/dashboard-style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/remodal.css" rel="stylesheet" type="text/css">
+    <!-- /CSS -->
+
+</head>
+
+<body>
+
+    <!-- HEADER SECTION -->
+    <header class="header-section">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-3 col-4"><img src="assets/img/logo.svg" class="img-fluid" alt=""></div>
+                <div class="col-md-9 col-8 d-flex justify-content-end align-items-center">
+                    <a href="#" class="home-link">Home</a>
+                    <a href="upgrade-to-premium.html" class="btn btn-secondary btn-lg"><i class="fa-solid fa-crown"></i>
+                        Upgrade to
+                        Premium</a>
+                    <nav class="my-account">
+                        <div class="profile">
+                            <div class="img-box">
+                                <img src="assets/img/icon-avatar.svg" alt="">
+                            </div>
+                            <div class="user">
+                                <h6>Saimon Jhonson</h6>
+                            </div>
+                            <div class="icon"><i class="fa-solid fa-chevron-down"></i></div>
+                            <div class="menu-bar"><img src="assets/img/menu-bar.svg" alt=""></div>
+                        </div>
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#"><i class="fa-regular fa-user"></i> Profile</a></li>
+                                <li><a href="#"><i class="fa-regular fa-envelope"></i> Inbox</a></li>
+                                <li><a href="#"><i class="fa-solid fa-gear"></i> Settings</a></li>
+                                <li><a href="#"><i class="fa-regular fa-circle-question"></i> Help</a></li>
+                                <li><a href="#"><i class="fa-solid fa-right-from-bracket"></i> Sign Out</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- /HEADER SECTION -->
+
+    <!-- CONTENT SECTION -->
+    <section class="dashboard-menu-section clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-4">
+                    <div class="page-menu"><a href="dashboard.html" class="active"><span
+                                class="icon-icon-01"></span>Dashboard</a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-4">
+                    <div class="page-menu">
+                        <div class="profile-progress">
+                            <div class="progress-bar"><span style="width: 40%;"></span></div>
+                            <div class="progress-txt">40%</div>
+                        </div>
+                        <a href="profile.html"><span class="icon-icon-02"></span>Profile</a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-4">
+                    <div class="page-menu"><a href="leads.html"><span class="icon-icon-03"></span>Leads</a></div>
+                </div>
+                <div class="col-md-2 col-4">
+                    <div class="page-menu"><a href="boost.html"><span class="icon-icon-04"></span>Boost</a></div>
+                </div>
+                <div class="col-md-2 col-4">
+                    <div class="page-menu"><a href="performance.html"><span class="icon-icon-05"></span>Performance</a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-4">
+                    <div class="page-menu"><a href="support.html"><span class="icon-icon-06"></span>Support</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dashboard-info-section clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="profile-box">
+                        <figure><img src="assets/img/coach-img.png" class="img-fluid" alt=""></figure>
+                        <article>
+                            <h6>Anubha Raman</h6>
+                            <p><i class="fa-solid fa-location-dot"></i> Delhi - New Delhi</p>
+                            <p><i class="fa-regular fa-envelope"></i> anubharaman65@gmail.com</p>
+                            <p><i class="fa-solid fa-mobile-screen-button"></i> +91 9874561230</p>
+                            <p><img src="assets/img/4star.png" alt=""> (25)</p>
+                        </article>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="upgrade-box">
+                        <figure><img src="assets/img/icon-premium.svg" alt=""></figure>
+                        <h5>Upgrade to Premium</h5>
+                        <p>Become a vip member to get more features</p>
+                        <div class="upgradebutton"><a href="upgrade-to-premium.html" class="btn btn-secondary btn-lg"><i
+                                    class="fa-solid fa-crown"></i> Upgrade Now</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between align-items-center">
+            <a href="#modal-delete" class="btn btn-secondary">Delete</a>
+            <a href="#modal-success" class="btn btn-success">Success</a>
+            <a href="#modal-error" class="btn btn-danger">Error</a>
+        </div>
+    </div>
+
+    <div class="remodal remodal-alert" data-remodal-id="modal-delete" role="dialog" aria-labelledby="modal1Title"
+        aria-describedby="modal1Desc">
+        <div>
+            <figure><img src="assets/img/delete.gif" class="img-fluid" alt=""></figure>
+            <h6>Are you sure you want to Delete?</h6>
+            <button type="button" class="btn btn-outline-primary">No</button>
+            <button type="button" class="btn btn-secondary">Yes</button>
+        </div>
+    </div>
+
+    <div class="remodal remodal-alert" data-remodal-id="modal-success" role="dialog" aria-labelledby="modal1Title"
+        aria-describedby="modal1Desc">
+        <div>
+            <figure><img src="assets/img/success.gif" class="img-fluid" alt=""></figure>
+            <h6>Your Message Sent Successfully.</h6>
+            <button type="button" class="btn btn-secondary">Back to Home</button>
+        </div>
+    </div>
+
+    <div class="remodal remodal-alert" data-remodal-id="modal-error" role="dialog" aria-labelledby="modal1Title"
+        aria-describedby="modal1Desc">
+        <div>
+            <figure><img src="assets/img/error.gif" class="img-fluid" alt=""></figure>
+            <h6>Something Error Here, Please Try Again</h6>
+            <button type="button" class="btn btn-secondary">RETRY</button>
+        </div>
+    </div>
+
+    <section class="dashboard-total-section clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <div class="total-box">
+                        <figure><img src="assets/img/icon-03.svg" class="img-fluid" alt=""></figure>
+                        <aside>
+                            <p>Total Earnings</p>
+                            <h5>₹62550</h5>
+                        </aside>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="total-box">
+                        <figure><img src="assets/img/icon-03.svg" class="img-fluid" alt=""></figure>
+                        <aside>
+                            <p>Total Leads</p>
+                            <h5>250</h5>
+                        </aside>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="total-box">
+                        <figure><img src="assets/img/icon-03.svg" class="img-fluid" alt=""></figure>
+                        <aside>
+                            <p>Total Seasons</p>
+                            <h5>1532</h5>
+                        </aside>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="total-box">
+                        <figure><img src="assets/img/icon-03.svg" class="img-fluid" alt=""></figure>
+                        <aside>
+                            <p>Visitors This Month</p>
+                            <h5>2513</h5>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="complete-profile-section clearfix">
+        <div class="container">
+            <section>
+                <h5>Complete your Profile to Get more Searches</h5>
+                <div class="profile-progress">
+                    <div class="progress-bar"><span style="width: 40%;"></span></div>
+                    <div class="progress-txt">40%</div>
+                </div>
+                <button type="button" class="btn btn-secondary"><a href="profile.html">Complete Profile</a></button>
+            </section>
+        </div>
+    </section>
+
+    <section class="dashboard-reviews-section clearfix">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h6>Reviews & Ratings (16)</h6>
+                <a href="#modal02" class="btn btn-secondary">Request Review</a>
+            </div>
+
+            <div class="remodal reviews-form" data-remodal-id="modal02" role="dialog" aria-labelledby="modal1Title"
+                aria-describedby="modal1Desc">
+                <div>
+                    <h5>Request Review</h5>
+                    <p>Enter the details of your client and send for a review of your Service. Or Just copy the link and
+                        send.</p>
+                    <div class="mt-3">
+                        <input type="text" class="form-control your-name" id="" placeholder="Enter your Full name">
+                    </div>
+                    <div class="mt-3">
+                        <input type="email" class="form-control your-email" id="" placeholder="Enter your Email">
+                    </div>
+                    <div class="mt-3 mb-4">
+                        <input type="tel" class="form-control your-phone" id="" placeholder="Enter your Phone Number">
+                    </div>
+                    <input type="submit" class="btn btn-secondary btn-lg" value="Send Request for Review">
+                    <div class="divider line one-line">OR</div>
+                    <div class="row">
+                        <div class="col-sm-8"><input type="text" class="form-control" id=""
+                                value="https//..www.review&rating_link_for_anubha_raman%@.com"></div>
+                        <div class="col-sm-4"><button type="button" class="btn btn-secondary btn-lg">Copy Link</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reviews-box">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-image"><img src="assets/img/avatar-01.png" class="img-fluid" alt=""></div>
+                        <div class="card-info">
+                            <h6>Leena Smith</h6>
+                            <p>Kolkata, West Bengal</p>
+                        </div>
+                        <div class="card-rating"><img src="assets/img/5star.png" alt=""></div>
+                    </div>
+                    <div class="card-content">
+                        <p>Perfect! Charlie is an excellent yoga teacher. He has extensive knowledge of the
+                            discipline and he tailored my routine to what worked for me. His calm and easy
+                            going personality made him a joy to work with over 3 months. Thanks Charlie!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-image"><img src="assets/img/avatar-02.png" class="img-fluid" alt=""></div>
+                        <div class="card-info">
+                            <h6>Saimon Jhonson</h6>
+                            <p>Kolkata, West Bengal</p>
+                        </div>
+                        <div class="card-rating"><img src="assets/img/3star.png" alt=""></div>
+                    </div>
+                    <div class="card-content">
+                        <p>Charlie merges the esoteric and the physical in a very straightforward manner but
+                            without oversimplifying it. He applies his knowledge and understanding of the
+                            human anatomy in a very practical way; early on he noticed nuances in my posture
+                            and form and gave me the tools I needed to begin correcting my misalignments.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-image"><img src="assets/img/avatar-03.png" class="img-fluid" alt=""></div>
+                        <div class="card-info">
+                            <h6>David Warner</h6>
+                            <p>Kolkata, West Bengal</p>
+                        </div>
+                        <div class="card-rating"><img src="assets/img/4star.png" alt=""></div>
+                    </div>
+                    <div class="card-content">
+                        <p>If you are looking for someone to help you tap into your true self and refine
+                            your daily practices to become the best version of yourself look no further
+                            because Charlie is your guy!</p>
+                    </div>
+                </div>
+                <div class="text-end mt-3 mb-3">
+                    <a href="#" class="btn btn-outline-primary">See all Reviews</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /CONTENT SECTION -->
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer-section clearfix">
+        <div class="container">
+            <div class="top-section d-none d-md-block">
+                <figure><img src="assets/img/footer-logo.png" alt=""></figure>
+                <p>Unlock your potential and connect with your dream clubs today! Join and showcase your talent to a
+                    world of opportunities. Empower your athletic journey and take the first step towards realising your
+                    dreams. Start creating your profile now!</p>
+            </div>
+            <div class="mid-section">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3 d-none d-lg-block d-md-block">
+                        <h6>Quick Links</h6>
+                        <ul class="links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Blogs</a></li>
+                            <li><a href="#">Tournament</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Support Center</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-3 d-none d-lg-block d-md-block">
+                        <h6>Top Sports</h6>
+                        <ul class="links">
+                            <li><a href="#">Cricket</a></li>
+                            <li><a href="#">Football</a></li>
+                            <li><a href="#">Basketball</a></li>
+                            <li><a href="#">Badminton</a></li>
+                            <li><a href="#">Kabaddi</a></li>
+                            <li><a href="#">MMA</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5 col-md-6 d-none d-lg-block d-md-block">
+                        <h6>Top Cities</h6>
+                        <ul class="links two-columns">
+                            <li><a href="#">Delhi</a></li>
+                            <li><a href="#">Mumbai</a></li>
+                            <li><a href="#">Bengaluru</a></li>
+                            <li><a href="#">Gurgaon</a></li>
+                            <li><a href="#">Noida</a></li>
+                            <li><a href="#">Hyderabad</a></li>
+                            <li><a href="#">Chennai</a></li>
+                            <li><a href="#">Pune</a></li>
+                            <li><a href="#">Kochi</a></li>
+                            <li><a href="#">Chandigarh</a></li>
+                            <li><a href="#">Jaipur</a></li>
+                            <li><a href="#">Kolkata</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-12 get-in-touch">
+                        <h6>Get In Touch</h6>
+                        <ul class="links">
+                            <li><a href="mailto:care@bookmyplayer"><i class="fa-regular fa-envelope"></i>
+                                    care@bookmyplayer</a></li>
+                        </ul>
+                        <ul class="socials">
+                            <li><a href="http://" target="_blank" rel="noopener noreferrer"><i
+                                        class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="http://" target="_blank" rel="noopener noreferrer"><i
+                                        class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="http://" target="_blank" rel="noopener noreferrer"><i
+                                        class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="http://" target="_blank" rel="noopener noreferrer"><i
+                                        class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bot-section">
+                <div class="row">
+                    <div class="col-lg-6 col-md-5">
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-md-7">
+                        <p>© 2024 by <strong>Book My Player</strong> All Rights and Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /FOOTER SECTION -->
+
+    <!-- JAVASCRIPT SECTION -->
+    <script src="https://kit.fontawesome.com/6d54d92cfd.js" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script>
+        let profile = document.querySelector('.profile');
+        let menu = document.querySelector('.menu');
+
+        profile.onclick = function () {
+            menu.classList.toggle('active');
+        }
+    </script>
+    <script src="assets/js/remodal.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- /JAVASCRIPT SECTION -->
+
+</body>
+
+</html>
